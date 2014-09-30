@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 300000 125000]
 
 Grid[500.0 0 0 1]
-Cursor[168500 26000 0.000000]
+Cursor[0 45500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 800 800 1000 2000 800]
@@ -1029,11 +1029,19 @@ Layer(3 "outline")
 )
 Layer(4 "silk")
 (
+	Line[500 124500 299500 124500 1000 2000 ""]
+	Line[299500 124500 299500 500 1000 2000 ""]
+	Line[299500 500 500 500 1000 2000 "selected"]
+	Line[500 500 500 124500 1000 2000 ""]
+	Text[5500 17500 0 100 "http://www.iascaled.com" "clearline,onsolder"]
+	Text[5500 39000 0 100 "Iowa Scaled Engineering" "clearline,onsolder"]
+	Text[5500 31500 0 100 "CKT-DCCPANEL v1.0" "clearline,onsolder"]
+	Text[5500 24500 0 100 "CC BY-SA 2014" "clearline,onsolder"]
 )
 Layer(5 "silk")
 (
 	Line[599500 169500 599500 500 1000 2000 ""]
-	Line[500 124500 299500 124500 1000 2000 "selected"]
+	Line[500 124500 299500 124500 1000 2000 ""]
 	Line[299500 124500 299500 500 1000 2000 ""]
 	Line[500 500 500 124500 1000 2000 ""]
 	Line[299500 500 500 500 1000 2000 ""]
