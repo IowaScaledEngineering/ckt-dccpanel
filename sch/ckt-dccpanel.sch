@@ -70,9 +70,9 @@ footprint=keystone_8190
 C 46900 54600 1 0 0 din5-1.sym
 {
 T 47100 57000 5 10 0 0 0 0 1
-device=Female-DIN-5
+device=DIN 5 jack
 T 47100 56600 5 10 0 0 0 0 1
-footprint=Female_DIN_5_pin
+footprint=sds-50j
 T 47795 55895 5 10 1 1 0 0 1
 refdes=J1
 }
@@ -97,9 +97,9 @@ netname=RS485-B
 C 46900 52700 1 0 0 din5-1.sym
 {
 T 47100 55100 5 10 0 0 0 0 1
-device=Female-DIN-5
+device=DIN 5 jack
 T 47100 54700 5 10 0 0 0 0 1
-footprint=Female_DIN_5_pin
+footprint=sds-50j
 T 47795 53995 5 10 1 1 0 0 1
 refdes=J2
 }
@@ -136,6 +136,8 @@ T 50400 54600 5 10 1 1 180 0 1
 refdes=R1
 T 50200 54200 5 10 1 1 0 0 1
 device=1k
+T 50700 54100 5 10 0 0 0 0 1
+footprint=R025
 }
 C 50400 55000 1 0 0 12V-plus-1.sym
 C 50500 52900 1 0 0 gnd-1.sym
@@ -158,6 +160,8 @@ T 40700 51550 5 10 0 0 0 6 1
 device=TERMBLK2
 T 41300 51800 5 10 1 1 0 6 1
 refdes=J4
+T 41700 50900 5 10 0 0 0 0 1
+footprint=TERMBLK2_200MIL
 }
 C 41900 50800 1 0 0 gnd-1.sym
 N 41700 51100 42000 51100 4

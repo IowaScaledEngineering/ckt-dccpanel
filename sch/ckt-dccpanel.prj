@@ -1,0 +1,4 @@
+schematics ckt-dccpanel.sch
+output-name ../pcb/ckt-dccpanel
+skip-m4
+elements-dir ../../footprints
