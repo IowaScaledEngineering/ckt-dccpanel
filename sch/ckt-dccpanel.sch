@@ -1,9 +1,8 @@
 v 20130925 2
-C 40000 40000 0 0 0 title-bordered-C.sym
 C 40800 52300 1 0 0 rj45-dual.sym
 {
-T 40800 55200 5 10 0 0 0 0 1
-device=RJ45
+T 40800 56600 5 10 1 1 0 0 1
+device=EDAC A00-216-260-450 or similar
 T 40800 55000 5 10 0 0 0 0 1
 footprint=modular_8p8c_dual
 T 40800 56200 5 10 1 1 0 0 1
@@ -39,33 +38,35 @@ N 41700 53100 43100 53100 4
 N 41700 52900 43300 52900 4
 N 41700 52700 43500 52700 4
 N 41700 52500 44000 52500 4
-T 54800 40900 9 10 1 0 0 0 1
-LED Lighting Power Board - 6 Channel
-T 58700 40300 9 10 1 0 0 0 1
+T 47400 48300 9 10 1 0 0 0 1
+RJ45 to 2x DIN DCC Fascia Panel for NCE
+T 51300 47700 9 10 1 0 0 0 1
 Nathan D. Holmes
-T 55100 40300 9 10 1 0 0 0 1
+T 47700 47700 9 10 1 0 0 0 1
 1
-T 56800 40300 9 10 1 0 0 0 1
+T 49400 47700 9 10 1 0 0 0 1
 1
-T 54800 40600 9 10 1 0 0 0 1
-clk-slc.sch
-C 48000 51400 1 0 0 hole-1.sym
+T 47400 48000 9 10 1 0 0 0 1
+clk-dccpanel.sch
+C 49000 49800 1 0 0 hole-1.sym
 {
-T 48000 51400 5 10 0 1 0 0 1
+T 49000 49800 5 10 0 1 0 0 1
 device=HOLE
-T 48200 52100 5 10 1 1 0 4 1
+T 49200 50500 5 10 1 1 0 4 1
 refdes=H1
-T 48000 51400 5 10 0 0 0 0 1
+T 49000 49800 5 10 0 0 0 0 1
 footprint=keystone_8190
 }
-C 48500 51400 1 0 0 hole-1.sym
+C 49500 49800 1 0 0 hole-1.sym
 {
-T 48500 51400 5 10 0 1 0 0 1
+T 49500 49800 5 10 0 1 0 0 1
 device=HOLE
-T 48700 52100 5 10 1 1 0 4 1
+T 49700 50500 5 10 1 1 0 4 1
 refdes=H2
-T 48500 51400 5 10 0 0 0 0 1
+T 49500 49800 5 10 0 0 0 0 1
 footprint=keystone_8190
+T 49500 49800 5 10 0 1 0 0 1
+device=Keystone 8190 terminal block
 }
 C 46900 54600 1 0 0 din5-1.sym
 {
@@ -168,3 +169,10 @@ N 46900 53800 46900 53500 4
 N 48300 53500 48500 53500 4
 N 48500 53500 48500 53600 4
 C 48300 53600 1 0 0 12V-plus-1.sym
+C 37600 47400 0 0 0 title-bordered-B.sym
+T 48900 49200 9 10 1 0 0 0 2
+H1 & H2 are Keystone 8190 90-degree screw terminal blocks
+These will mesh with holes on the fascia panel to attach the board
+T 50900 53100 9 10 1 0 0 0 2
+3mm Power LED
+(optional)
