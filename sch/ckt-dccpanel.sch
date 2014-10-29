@@ -181,7 +181,7 @@ C 44600 51900 1 0 0 header3-1.sym
 T 45600 52550 5 10 0 0 0 0 1
 device=HEADER3
 T 45000 53200 5 10 1 1 0 0 1
-refdes=J4
+refdes=J5
 T 44600 51900 5 10 0 0 0 0 1
 footprint=JUMPER3
 }
@@ -197,5 +197,5 @@ Away From
 Command
 Station
 T 44900 51300 9 10 1 0 0 0 2
-Jumper J4:1-2 to pass power through
-Jumper J4:2-3 to inject +12 for downline ports
+Jumper J5:1-2 to pass power through
+Jumper J5:2-3 to inject +12 for downline ports
